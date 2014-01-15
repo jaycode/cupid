@@ -1,0 +1,50 @@
+input {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: solid 1px #CCC;
+}
+
+.fieldset_info {
+  float: right;
+  margin: 0;
+}
+
+textarea {
+  height: 100px;
+  width: 300px;
+}
+
+select option {
+  display: block !important;
+}
+
+.p_check_box {
+  float: left;
+  width: 50%;
+}
+
+.p_hidden_field {
+  display: none;
+}
+
+.fixed_label-120 {
+  float: left;
+  width: 120px !important;
+  text-align: left;
+}
+.fixed_label {
+  float:left;
+  margin-right: 10px;
+}
+
+.fixed_label-180 {
+  float: left;
+  width: 180px !important;
+  text-align: left;
+}
+
+.fixed_input {
+  float: left;
+}

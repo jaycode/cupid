@@ -1,0 +1,444 @@
+/*----GENERAL----*/
+body {}
+a { color: #000; text-decoration: underline; }
+a:visited { color: #666; }
+a:hover { text-decoration: none; }
+a img {border: none; border: 1px solid transparent;}
+a img:hover { border: 1px solid #ff0000;}
+
+.edit_area label {
+  float: left;
+  width: 130px;
+}
+
+.radio_label {
+	float: left;
+	width: auto !important;
+}
+
+.radio_input {
+	float: left;
+}
+
+#edit_categories label {
+  width: auto;
+}
+#edit_categories li {
+  list-style: none;
+}
+
+#main > h4 {
+  display: none;
+  margin: 0;
+}
+.clear {clear: both;}
+.float_right {float: right;}
+.float_left {float: left;}
+.notice {
+  background-color:#DAFFCD;
+  border:1px solid #7FCF00;
+  padding:4px;
+  color: #1F7F00;
+}
+.error {
+  background-color:#f8aaaa;
+  border:1px solid #cd1e1e;
+  padding:4px;
+  color: #cd1e1e;
+}
+p {
+  margin: 2px 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #CCC;
+  float: left;
+}
+
+#columns {
+  clear: both;
+}
+
+.price-special, .price-normal {
+  display: inline;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.half {
+  float: left;
+  width: 50%;
+}
+
+.autocomplete_list {
+  width: 100% !important;
+}
+
+.autocomplete_list li {
+  background: #CCC !important;
+  border-bottom: 1px solid #000 !important;
+  border-left: 1px solid #000 !important;
+  border-right: 1px solid #000 !important;
+}
+
+/*----Admin layout----*/
+.admin_sidebar {
+  float: left;
+  width: 15%;
+}
+
+.two #main {
+  float: left;
+  margin-left: 20px;
+}
+.submit_button {
+  margin-top: 20px;
+}
+
+/*----Admin index----*/
+.main_buttons_area {
+  float: left;
+  width: 39%;
+}
+
+.main_button {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  border: solid 1px #CCCCCC;
+}
+
+.main_button_image {
+  border: solid 1px #CCCCCC;
+  text-align: center;
+}
+
+.main_button_text {
+  text-align: center;
+}
+
+.main_reports_area {
+  float: left;
+  border: 1px #CCCCCC solid;
+  width: 59%;
+  padding: 5px;
+}
+
+.main_reports_area h2{
+  font-size: 1.2em !important;
+  margin-top: 10px !important;
+}
+
+/*----products admin page----*/
+.list-ct ul {
+  margin: 0;
+}
+
+.email_extra_info_class {
+  width: auto !important;
+}
+#product_email_extra_info {
+  width: 100% !important;
+}
+.delete_dependency {
+  float: right;
+}
+.package_item_dependency {
+  cursor: move;
+}
+
+.price_currency {
+  float: left;
+  margin-right: 5px;
+  border: 1px dashed #CCC;
+  padding: 5px 10px;
+}
+
+.package_dependencies {
+  border: 1px solid #CCC;
+  padding: 5px 10px;
+}
+.package_dependencies ul {
+  padding: 0;
+  list-style: none;
+}
+
+.package_dependencies ul li {
+  border: 1px solid #CCC;
+  padding: 5px 10px;
+  display: block;
+  margin: 0 0 5px;
+}
+
+.dependency_package_item_ids {
+  float: left;
+}
+
+.dependency_prices {
+}
+
+.dependency_prices h3{
+  margin-top: 0px;
+}
+.bundle_prices {
+}
+.product_submit_button, .bundle_submit_button {
+  margin: 20px 10px 0 0;
+  float: left;
+}
+
+.package_fieldset {
+  margin-bottom: 10px;
+  width: 450px;
+  float: left;
+  clear: both;
+}
+
+.package_items {
+  border:1px solid #DDDDDD;
+  padding:15px;
+  margin-left: 10px;
+}
+
+.package_items h3 {
+  margin: 0 0 5px;
+}
+
+.package_item_fieldset {
+}
+
+.showhide_package_link {
+  float: right;
+}
+
+.showhide_package_items_link {
+  float: right;
+}
+
+.product_image, .bundle_image {
+  border: 1px #CCCCCC solid;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.product_image_input, .product_image_image, .bundle_image_input, .bundle_image_image {
+  float: left;
+  margin-right: 20px;
+}
+
+.product_image_input .checkbox, .bundle_image_input .checkbox {
+  float: left;
+  margin: 3px 5px 4px 0;
+}
+
+.buy_price_text {
+  float: left;
+  width: 100px;
+}
+
+.price_label, .package_price_input, .bundle_price_input {
+  float: left;
+  width: 50px !important;
+}
+.net_label {
+  margin-left: 10px;
+}
+
+.pricing_title {
+  font-weight: normal;
+  font-size: 1em;
+  border-bottom: #000 1px solid;
+}
+
+.banner_content_area {
+  float: left;
+}
+.banner_preview_area {
+  float: left;
+  margin-left: 20px;
+}
+
+/*----categories admin page----*/
+.navigator {
+  float: left;
+  width: 20%;
+}
+
+.navigator ul {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.navigator ul li{
+  list-style: none;
+}
+
+.content {
+  margin-left: 20%;
+}
+
+.product_image input {
+  margin: 0;
+}
+
+/*----images admin page----*/
+.images {
+  float: left;
+  margin: 20px;
+  text-align: center;
+  width: 220px;
+}
+.images h3 {
+  margin: 0;
+}
+.image_inputs_area {
+  float: left;
+  margin-right: 30px;
+}
+.uploaded_image img {
+  border: 1px solid #000;
+  float: left;
+}
+
+/*---- order admin page ----*/
+.order_payment_area {
+  width: 400px;
+}
+
+.order-details_block .active-scaffold {
+  clear: left;
+  float: left;
+}
+
+#orders_admin .active-scaffold-header h2{
+  font-size: 14px;
+}
+
+.order-details_block {
+  margin-right: 20px;
+  float: left;
+}
+
+/*---- configuration admin page ----*/
+.config-find {
+}
+
+.config-sidebar {
+  float:right;
+  width:20%;
+}
+.config-detail_area {
+  background-color:#DDDDDD;
+}
+.config-detail_area .detail_content {
+  padding: 10px;
+}
+
+.detail_content h3{
+  margin: 0 0 5px;
+}
+
+.config-items_area {
+  float: left;
+  width: 80%;
+}
+
+.config-items_area th, .config-items_area td {
+  text-align: left;
+  padding-left: 4px;
+}
+
+.config-items_area .odd {
+  background-color: #EEE;
+}
+
+.config-items_area .even {
+  background-color: #CCC;
+}
+
+.config-items_action {
+  text-align: center !important;
+}
+
+.config-items_area .active, .config-items_area .active a:link, .config-items_area .active a:visited {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+/*---- Activescaffold ----*/
+#as_admin__users-active-scaffold .vertical-sub-form, .admin_users-view .vertical-sub-form{
+  float: right !important;
+  width: 60%;
+}
+.user_status-column {
+  text-align: center;
+}
+#as_admin__users-content .form-element, #as_admin__users-search-container .form-element, .admin_users-view .form-element {
+  clear: left !important;
+}
+
+.active-scaffold li.form-element {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+}
+
+.multiple_inputs {
+  padding: 5px 0 !important
+}
+
+.record_search_area {
+  float: left;
+}
+
+.record_search_result_area {
+  float: left;
+  padding-left: 20px !important;
+}
+/*----Admin Header----*/
+#top_info {
+  float: right;
+  margin-right: 10px;
+}
+
+#top_info #time {
+  display: block;
+  margin-right: 10px;
+  float: left;
+  font-weight: bold;
+}
+
+#top_info #info {
+  display: block;
+  margin-right: 10px;
+  float: left;  
+}
+
+#top_info #menu {
+  display: block;
+  float: left;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+.header h1 {
+  padding-left: 20px;
+}
+
+/* not wowrking, tried to make text in grid selectable
+.x-grid3-row td,
+.x-grid3-summary-row td,
+.x-grid3-cell-text,
+.x-grid3-hd-text,
+.x-grid3-hd,
+.x-grid3-row {
+	-moz-user-select:inherit !important;
+	-khtml-user-select:text !important;
+}*/
